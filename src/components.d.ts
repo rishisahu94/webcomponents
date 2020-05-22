@@ -6,7 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyAccordion {
+    interface CardComponent {
         "card": any;
     }
     interface MyComponent {
@@ -18,11 +18,11 @@ export namespace Components {
     }
 }
 declare global {
-    interface HTMLMyAccordionElement extends Components.MyAccordion, HTMLStencilElement {
+    interface HTMLCardComponentElement extends Components.CardComponent, HTMLStencilElement {
     }
-    var HTMLMyAccordionElement: {
-        prototype: HTMLMyAccordionElement;
-        new (): HTMLMyAccordionElement;
+    var HTMLCardComponentElement: {
+        prototype: HTMLCardComponentElement;
+        new (): HTMLCardComponentElement;
     };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
@@ -31,12 +31,12 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
-        "my-accordion": HTMLMyAccordionElement;
+        "card-component": HTMLCardComponentElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyAccordion {
+    interface CardComponent {
         "card"?: any;
     }
     interface MyComponent {
@@ -48,7 +48,7 @@ declare namespace LocalJSX {
         "width"?: string;
     }
     interface IntrinsicElements {
-        "my-accordion": MyAccordion;
+        "card-component": CardComponent;
         "my-component": MyComponent;
     }
 }
@@ -56,7 +56,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-accordion": LocalJSX.MyAccordion & JSXBase.HTMLAttributes<HTMLMyAccordionElement>;
+            "card-component": LocalJSX.CardComponent & JSXBase.HTMLAttributes<HTMLCardComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }

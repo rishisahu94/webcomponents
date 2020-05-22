@@ -1,18 +1,16 @@
 import { Component, State, EventEmitter, Event, Prop, h } from '@stencil/core';
 
 @Component({
-  tag: 'my-accordion',
-  styleUrl: 'my-accordion.scss',
+  tag: 'card-component',
+  styleUrl: 'card-component.scss',
 })
 
-export class MyComponent {
+export class CardComponent {
 
   @Prop() card: any;
 
   render() {
-    console.log('hi rishi',this.card)
     this.card=JSON.parse(this.card);
-    console.log('this.cardData',this.card)
     const {
       FieldLink,
       FieldLinkTitle,
