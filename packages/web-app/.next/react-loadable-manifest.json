@@ -1,0 +1,84 @@
+{
+  "./core-js.js": [
+    {
+      "id": "../../node_modules/webpack/buildin/global.js",
+      "name": "../../node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/stencil-polyfills-core-js.js",
+      "publicPath": "static/chunks/stencil-polyfills-core-js.js"
+    },
+    {
+      "id": "./node_modules/ez-components/dist/esm/polyfills/core-js.js",
+      "name": "./node_modules/ez-components/dist/esm/polyfills/core-js.js",
+      "file": "static/chunks/stencil-polyfills-core-js.js",
+      "publicPath": "static/chunks/stencil-polyfills-core-js.js"
+    }
+  ],
+  "./css-shim-d61c58a9.js": [
+    {
+      "id": "./node_modules/ez-components/dist/esm-es5/css-shim-d61c58a9.js",
+      "name": "./node_modules/ez-components/dist/esm-es5/css-shim-d61c58a9.js",
+      "file": "static/chunks/stencil-polyfills-css-shim.js",
+      "publicPath": "static/chunks/stencil-polyfills-css-shim.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "../../node_modules/next/dist/client/dev/noop.js",
+      "name": "../../node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ],
+  "./dom-e7fe74ef.js": [
+    {
+      "id": "./node_modules/ez-components/dist/esm-es5/dom-e7fe74ef.js",
+      "name": "./node_modules/ez-components/dist/esm-es5/dom-e7fe74ef.js",
+      "file": "static/chunks/stencil-polyfills-dom.js",
+      "publicPath": "static/chunks/stencil-polyfills-dom.js"
+    },
+    {
+      "id": "./node_modules/ez-components/dist/esm/polyfills/dom.js",
+      "name": "./node_modules/ez-components/dist/esm/polyfills/dom.js",
+      "file": "static/chunks/stencil-polyfills-dom.js",
+      "publicPath": "static/chunks/stencil-polyfills-dom.js"
+    }
+  ],
+  "./dom.js": [
+    {
+      "id": "./node_modules/ez-components/dist/esm-es5/dom-e7fe74ef.js",
+      "name": "./node_modules/ez-components/dist/esm-es5/dom-e7fe74ef.js",
+      "file": "static/chunks/stencil-polyfills-dom.js",
+      "publicPath": "static/chunks/stencil-polyfills-dom.js"
+    },
+    {
+      "id": "./node_modules/ez-components/dist/esm/polyfills/dom.js",
+      "name": "./node_modules/ez-components/dist/esm/polyfills/dom.js",
+      "file": "static/chunks/stencil-polyfills-dom.js",
+      "publicPath": "static/chunks/stencil-polyfills-dom.js"
+    }
+  ],
+  "./my-accordion.entry.js": [
+    {
+      "id": "./node_modules/ez-components/dist/esm-es5/my-accordion.entry.js",
+      "name": "./node_modules/ez-components/dist/esm-es5/my-accordion.entry.js",
+      "file": "static/chunks/stencil-my-accordion-entry-js.js",
+      "publicPath": "static/chunks/stencil-my-accordion-entry-js.js"
+    }
+  ],
+  "./my-component.entry.js": [
+    {
+      "id": "./node_modules/ez-components/dist/esm-es5/my-component.entry.js",
+      "name": "./node_modules/ez-components/dist/esm-es5/my-component.entry.js",
+      "file": "static/chunks/stencil-my-component-entry-js.js",
+      "publicPath": "static/chunks/stencil-my-component-entry-js.js"
+    }
+  ],
+  "./shadow-css-f98d74ec.js": [
+    {
+      "id": "./node_modules/ez-components/dist/esm-es5/shadow-css-f98d74ec.js",
+      "name": "./node_modules/ez-components/dist/esm-es5/shadow-css-f98d74ec.js",
+      "file": "static/chunks/1.js",
+      "publicPath": "static/chunks/1.js"
+    }
+  ]
+}
