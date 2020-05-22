@@ -1,0 +1,14 @@
+{
+  "name": "web-component-demo-article",
+  "version": "1.0.6",
+  "description": "A demo news article web component",
+  "main": "index.js",
+  "keywords": [
+    "web-component"
+  ],
+  "author": "Rishi",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  }
+}
